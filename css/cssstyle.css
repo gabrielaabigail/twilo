@@ -8,6 +8,7 @@
 	--hover-naranja:#f4722c;
 	--hover-verde:#00272b;
 	--color-titulos:#0b363d;
+	--fondo-card:#f6f9f9;
 }
 body{
 	font-family: 'Raleway', sans-serif;
@@ -116,6 +117,20 @@ a{
 	opacity: 0.8;
 }
 
+#features .card{
+	background-color: var(--fondo-card);
+	padding: 20px;
+	border: 0px;
+	border-bottom: 2px solid #fac56b;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#features .card h3{
+	font-size: 22px;
+	font-weight: 800;
+}
+
 #performance img{
 	text-align: left;
 }
@@ -127,6 +142,10 @@ a{
 	margin-top: 40px;
 }
 
+q{
+	padding-bottom: 40px;
+}
+
 .cita h5{
 	font-size: 16px;
 	font-weight: 800;
@@ -134,25 +153,156 @@ a{
 	margin-bottom: 0px;
 }
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+#hero-title{
+	background-image: url("../img/bg-img-01.png");
+	background-size: cover;
+	background-position: top center;
+	background-color: var(--color-general);
+	padding-top: 10%;
+	padding-bottom: 20px;
 }
+
+#hero-title h3{
+	color: var(--color-verde);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+	
+#hero-title .titulos{
+	color:#FFFFFF;
+	font-size: 60px;
+}
+	
+#form{
+	padding: 30px 0;
+}
+
+#form h3{
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+#form li{
+	margin-bottom: 10px;
+}
+	
+#form .la-map-marker-alt{
+	color:#FAC56B
+}
+
+#form .la-phone{
+	color: #0085F2;
+}
+	
+#form .la-envelope{
+	color: #FF5C00
+}
+	
+#form .form-info {
+	margin-top: -50%;
+	background-color: #fff;
+	padding: 25px 30px;
+	text-align: center;
+	box-shadow: 0px 0px 30px 0px #ddd;
+}	
+
+#form input, 
+#form textarea{
+	padding: 15px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border:0;
+}
+
+.img-hover img{
+	opacity: 0.6;
+	transition: all 0.3s ease-in-out;
+	filter: sepia(1);
+}
+
+.img-hover img:hover{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	filter: sepia(0);
+}
+
+#contact-cards .card{
+	background-color: var(--fondo-card);
+	padding: 20px;
+	border: 0px;
+	border-bottom: 2px solid #fac56b;
+}
+
+#contact-cards .card h5{
+	font-size: 20px;
+	font-weight: 800;
+	padding-top: 15px;
+	text-transform: lowercase;
+}
+
+
+footer h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+#clients{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+footer{
+	padding: 80px 0;
+	background-color: #fafafa;
+}
+
+footer a{
+	color: var(--color-general);
+	font-size: 14px;
+}
+
+footer a:hover{
+	color: var(--color-naranja);
+	font-size: 14px;
+}
+
+footer img{
+	margin-bottom: 25px;
+}
+
+footer ul{
+	font-size: 14px;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
+
+footer li:hover{
+	color: var(--color-naranja);
+}
+	
+#hero-carousel h5{
+	color: var(--color-verde);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+	
+#hero-carousel .titulo{
+	color:#fff;
+	font-size: 58px;
+	font-weight: 800;
+}	
+	
+#hero-carousel .btn-naranja{
+	display: inline-block !important;
+}
+
 
 
 

@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Twilo</title>
+<title>Contact Us-Twilo</title>
+
 <link rel="shortcut icon" href="img/favicon.png">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link href="css/cssstyle.css" rel="stylesheet">
 </head>
 
@@ -23,7 +25,7 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 			  <ul class="navbar-nav ms-auto">
 				<li class="nav-item">
-				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				  <a class="nav-link" aria-current="page" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="#">About</a>
@@ -35,7 +37,7 @@
 				  <a class="nav-link" href="services.html">Services</a>
 				</li>
 				   <li class="nav-item">
-				  <a class="nav-link" href="contactus.html">Contact</a>
+				  <a class="nav-link active" href="contactus.html">Contact</a>
 				</li>
 			
 			  </ul>
@@ -44,25 +46,100 @@
 </nav>
 	</header>
 	
-<section id="hero" class="section">
-	<div class="container">
-	    <div class="row">
-			<article class="col-lg-6 col-sm-12 col-12">
-			<h1>Your website, <span class="color-naranja">reimagined</span></h1>
-			<h4>We’ve spent the last 5 years helping over 25,000 teams just like yourself create and sustain a successful online support.</h4>
-				
-				<a href="#" class="btn btn-naranja"> Get Started</a>
-				<a href="#" class="btn btn-verde"> Watch Video</a>
-			</article>
-			
-			<article class="col-lg-6 col-sm-12 col-12">
-			<img src="img/frame-04.png" alt="frame twilo" class="img-fluid">
-			</article>
+	<section id="hero-title"> 
+		<div class="container">
+			<h3>Contact</h3>
+			<h2 class="titulos">Get in touch with <br> <span class="color-naranja"> Saasworld team</span></h2>
 		</div>
-	<div class="row">
-		<article class="col-lg-1 col-sm-4 col-12"> </article>
+	</section>
 		
-		<article class="col-lg-2 col-sm-4 col-12">
+
+	<section id="form">
+			<div class="container">
+				<div class="row">
+					 
+				<article class= "col-lg-6 col=sm-6 lg-12">
+					<h3>We are happy to hear from you</h3>
+					<p>Get the basics of your customer support processes right and make life easier for your agents. Well-defined processes make for efficient agents and happy customers.</p>
+					<ul class="list-unstyled">
+						<li> <i class="las la-map-marker-alt"></i> 3rd Avenue, 83 Manhattan NewYork, USA</li>
+						<li> <i class="las la-phone"> </i> 168-716-2246</li>
+						<li><i class="las la-envelope"></i> info@saasworld.org</li>
+					</ul>
+					</article>
+					
+				<article class= "col-lg-6 col=sm-6 lg-12">
+					<div class="form-info">
+					<h3>Send us a message</h3>
+					
+					<form name="form-contact" method="post" action="contactus.html">
+					<div class="mt-2">
+						<input type="email" name="correo" class="form-control" required placeholder="Your Email">
+						</div>
+					<div class="mt-2">
+						<input type="text" name="nombre" class="form-control" required placeholder="Your Name">
+						</div>
+					<div class="mt-2">
+						<textarea name="nombre" class="form-control" required placeholder= "Your Text" rows="8"> </textarea>
+						</div>
+						
+					<div class="mt-3">
+						<button type="submit" class="btn btn-naranja d-block w-100">Send</button>
+						</div>
+					
+					</form>
+					</div>
+					</article>
+				
+				</div>
+				
+			</div>
+	         </section>
+	
+	<section id="contact-cards" class="section">
+		<div class="container">
+	<div class="row mt-5">
+		<article class="col-lg-4 col-sm6 col-12" >
+			<div class="card">
+				<div class="card-body">
+					<img src="img/contactcard11.jpg" alt="sales" class="img-fluid" width="60px">
+				<h5 class="subtitulos">Sales</h5>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantius.</p>
+				<a href="#" class="link-naranja">Chat with sales</a>
+				</div>
+			</div>
+		</article>
+		
+		<article class="col-lg-4 col-sm6 col-12">
+			<div class="card">
+				<div class="card-body">
+					<img src="img/contactcard1.jpg" alt="contact" class="img-fluid" width="60px">
+				<h5 class="subtitulos">Support</h5>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantius.</p>
+				<a href="#" class="link-naranja">Contact support</a>
+				</div>
+			</div>
+		</article>
+		
+		<article class="col-lg-4 col-sm6 col-12">
+			<div class="card">
+				<div class="card-body">
+					<img src="img/contactcard3.jpg" alt="sales" class="img-fluid" width="60px">
+				<h5 class="subtitulos">DASHBOARD</h5>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantius.</p>
+				<a href="#" class="link-naranja">Contact media and press</a>
+				</div>
+			</div>
+		</article>
+	
+	</div>
+		</div>
+		</section>
+	
+	<section id="clients">
+		<div class= "container"> 
+			<div class="row img-hover">
+				<article class="col-lg-2 col-sm-4 col-12 offset-lg-1">
 			<img src="img/client-01.png" alt="client"> 
 		</article>
 		
@@ -81,118 +158,13 @@
 		<article class="col-lg-2 col-sm-4 col-12">
 			<img src="img/client-05.png" alt="client"> 
 		</article>
-		
-		<article class="col-lg-1 col-sm-4 col-12"> </article>
-		
-		
+			
+			</div>
 		
 		</div>
-	
-		
-	</div>
 	</section>
 	
-<section id="features" class="section">
-	<div class="container">
-	    <div class="row">
-			<article class="col-lg-6 col-sm-6 col-12">
-				<h5 class="subtitulos">STRUCTURE</h5>
-				<h2 class="titulos">Discover all <span class="color-naranja">our features</span></h2>
-				<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
-				<ul class="fw-semibold">
-					<li>Trends Tracking</li>
-					<li>Loyalty Programs</li>
-					<li>Vendor Management</li>
-					<li>Billing</li>
-				</ul>
-				<a href="#" class="link-naranja"> All Categories</a>
-			</article>
-			
-			<article class="col-lg-6 col-sm-6 col-12">
-				<img src="img/frame-06.png" alt="features img" class="img-fluid">
-				</article>
-			
-	</div>
-	</div>
-	
-	<div class="row mt-5">
-		<article class="col-lg-4 col-sm6 col-12" >
-			<div class="card">
-				<div class="card-body">
-				<h5 class="subtitulos">STRATEGY</h5>
-				<h3>Build your experience</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantius.</p>
-				<a href="#" class="link-naranja">View Demo</a>
-				</div>
-			</div>
-		</article>
-		
-		<article class="col-lg-4 col-sm6 col-12">
-			<div class="card">
-				<div class="card-body">
-				<h5 class="subtitulos">ABOUT US</h5>
-				<h3>Working process</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-				<a href="#" class="link-naranja">Learn More</a>
-				</div>
-			</div>
-		</article>
-		
-		<article class="col-lg-4 col-sm6 col-12">
-			<div class="card">
-				<div class="card-body">
-				<h5 class="subtitulos">DASHBOARD</h5>
-				<h3>Product features</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantius.</p>
-				<a href="#" class="link-naranja">Discover All</a>
-				</div>
-			</div>
-		</article>
-	
-	</div>
-	</section>
-<section id="performance" class="section"> 
-	<div class="container">
-			
-			<div class="row">
-				
-				<article class="col-lg-6 col-sm-12 col-12 ps-5">
-					<img src="img/frame-05.png" alt="grafico" class="img-fluid">
-				</article>
-				
-				<article class="col-lg-6 col-sm-12 col-12">
-					<h5 class="subtitulos">Data Analize</h5>
-					<h2 class="titulos">Increase your <span class="color-naranja">performance</span></h2>
-					<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
-					<br>
-					
-					<div class="cita">
-						<q>It is really refreshing to work with this software which is truly helpful in the client’s needs and preferences.</q>
-						<br>
-
-
-						<div class="row">
-							<article class="col-lg-2 col-sm-4 col-12"> 
-								<img src="img/pic-02.png" alt="John Doe" class="img-fluid">
-							</article>
-
-							<article class="col-lg-10 col-sm-8 col-12"> 
-							<h5>John Doe</h5>
-								<p class="small"> Lead designer, Apple</p>
-							</article>
-						</div>
-					</div>
-
-					</article>
-				
-				</div>
-				
-			</div>
-	
-	
-</section>
-	
-		<footer>
+	<footer>
 		<div class="container">
 			<div class="row">
 				
@@ -257,7 +229,10 @@
 	</footer>
 	
 	
+	
+	
 <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>
